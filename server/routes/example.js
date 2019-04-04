@@ -14,7 +14,7 @@ router.get('/', (req,res) => {
     ])
 })
 
-// POST /api/v1/example
+// POST /api/v1/example // DB not configured at all
 router.post('/', (req,res) => {
 
 })
