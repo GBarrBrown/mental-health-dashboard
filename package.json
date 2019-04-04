@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode development",
-    "dev": "nodemon server"
+    "dev": "nodemon server & webpack --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -21,6 +21,10 @@
     "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "css-loader": "^2.1.1",
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
   }
 }
