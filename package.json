@@ -1,0 +1,8 @@
+{
+  "name": "mental-health-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GBarrBrown/mental-health-dashboard.git",
+  "author": "gbarrbrown <gbb7899@gmail.com>",
+  "license": "MIT"
+}
