@@ -4,14 +4,19 @@ html, body {
     margin: 0;
 }
 
-/* Global */
-.container{
+
+/* -- Global -- */
+/* .container{
     width:80%;
     margin:auto;
     overflow:hidden;
+} */
+.content{
+    min-height: calc(100vh - 120px)
 }
 
-/* TheBigFour */
+
+/* -- TheBigFour -- */
 #TheBigFour_container{
     display: flex;
     flex-wrap: wrap;
@@ -27,9 +32,29 @@ html, body {
     float:left;
 }
 
+
+/* -- Footer -- */
+#Footer_container{
+    background-color: #CBC5EA;
+    color: #313639;
+    text-align: center;
+    height:120px;
+    vertical-align: middle;
+}
+
+#Footer_container #Footer_items{
+    display: inline-block;
+    text-align: left;
+}
+
+
+/* -- Media Queries -- */
 @media (max-width:900px) {
     #TheBigFour_container .card{
         width: 100vw;
+    }
+    #Footer_container p{
+        padding-left:10px;
     }
 }
 
