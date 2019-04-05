@@ -1,0 +1,30 @@
+{
+  "name": "mental-health-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GBarrBrown/mental-health-dashboard.git",
+  "author": "gbarrbrown <gbb7899@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "nodemon server & webpack --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
